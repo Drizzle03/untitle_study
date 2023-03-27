@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+/* container 정가운데 배치 */
+.container{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    perspective: 1000px;
+    /* perspective값이 작으면 작을수록 원근감 up */
+}
+
+/* 버튼 모양 생성 */
+.flip-btn{
+    width: 200px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    transform-style: preserve-3d;
+    transition: .8s;
+    cursor: pointer;
+}
+
+.flip-btn:hover{
+    transform: rotateX(-90deg);
+}
+
+.front{
+    background-color: goldenrod;
+    height: 100px;
+    transform: translateZ(50px);
+    /* Z축으로 front size / 2 만큼의 px값을 내려야 정확히 맞물림 */
+}
+
+.back{
+    background-color: darkgoldenrod;
+    height: 100px;
+    transform: rotateX(90deg) translateZ(150px);
+}
