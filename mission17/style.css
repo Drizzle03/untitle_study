@@ -1,0 +1,50 @@
+*{
+    margin: 1vh;
+}
+
+body{
+    background-color: rgb(33, 15, 55);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.outbox{
+    background-color: white;
+    border-radius: 25px;
+
+    padding: 2vh;
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+}
+
+.text{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+textarea{
+    border: 0;
+    border-radius: 26px;
+    background-color: #ebebeb;
+    width: 98%;
+    height: 300px;
+    padding: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: vertical;
+}
+
+button{
+    background-color: rgb(33, 15, 55);
+    color: white;
+    padding: 1.2vh;
+    border-radius: 40px;
+    position: relative;
+    right: -35vh;
+}
