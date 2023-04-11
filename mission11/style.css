@@ -13,13 +13,17 @@ body {
     display: flex;
     gap: 8px;
     padding: 32px;
+<<<<<<< HEAD
     align-items: center;
     justify-content: center ;
+=======
+>>>>>>> 5548ed3713b25cd9bc3cdd29550c4fceb34b9af7
 }
 
 .box {
     width: 200px;
     height: 200px;
+<<<<<<< HEAD
     background-color: #ffffff;
     display: flex;
     align-items: center;
@@ -35,10 +39,34 @@ body {
     position: fixed;
     bottom: 32px;
     right: 32px;
+=======
+    background-color: rgba(27, 149, 0, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+    background-color: rgba(221, 210, 0, 0.5);
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.box2 {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    background-color: rgba(39, 15, 255, 0.5);
+>>>>>>> 5548ed3713b25cd9bc3cdd29550c4fceb34b9af7
 }
 
 .box3 {
     position: absolute;
+<<<<<<< HEAD
     top: 32px;
     left: 32px;
 
@@ -53,3 +81,22 @@ div:nth-of-type(2) {
     background: cyan;
     opacity: 0.8;
   }
+=======
+    top: 300px;
+    left: 300px;
+
+    background-color:rgba(255, 15, 15, 0.5);
+}
+
+.fix{
+    position: fixed;
+    top: 700px;
+    left: 0px;
+    width: 1000px;
+    background-color: white;
+    border: 15px solid green;
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+}
+>>>>>>> 5548ed3713b25cd9bc3cdd29550c4fceb34b9af7
